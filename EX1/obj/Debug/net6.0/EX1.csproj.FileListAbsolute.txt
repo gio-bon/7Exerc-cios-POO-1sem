@@ -1,0 +1,15 @@
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/bin/Debug/net6.0/EX1
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/bin/Debug/net6.0/EX1.deps.json
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/bin/Debug/net6.0/EX1.runtimeconfig.json
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/bin/Debug/net6.0/EX1.dll
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/bin/Debug/net6.0/EX1.pdb
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/obj/Debug/net6.0/EX1.csproj.AssemblyReference.cache
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/obj/Debug/net6.0/EX1.GeneratedMSBuildEditorConfig.editorconfig
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/obj/Debug/net6.0/EX1.AssemblyInfoInputs.cache
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/obj/Debug/net6.0/EX1.AssemblyInfo.cs
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/obj/Debug/net6.0/EX1.csproj.CoreCompileInputs.cache
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/obj/Debug/net6.0/EX1.dll
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/obj/Debug/net6.0/refint/EX1.dll
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/obj/Debug/net6.0/EX1.pdb
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/obj/Debug/net6.0/EX1.genruntimeconfig.cache
+/home/giovani/Área de Trabalho/Exercícios POO GB/EX1/obj/Debug/net6.0/ref/EX1.dll
