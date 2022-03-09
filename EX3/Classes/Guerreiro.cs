@@ -26,7 +26,6 @@ atributos Vida e Força. */
         //public void lvlUp() {}
 
 /* Implemente o método attack() de forma que siga a seguinte regra:
-: ( Inteligência * Level ) + numeroRandomico( 0 até 300 ).
 Guerreiro ⚔ : ( Força * Level ) + numeroRandomico( 0 até 300 ). */
 
         //public void Attack(){}
