@@ -7,8 +7,8 @@ namespace EX3.Classes
 {
     public class Guerreiro : Personagem
     {
-        public List<string>? Habilidades { get; set; } 
-        public Guerreiro(string nome, int vida, int mana, float xp, int inteligencia, int forca, int level) : base(nome, vida, mana, xp, inteligencia, forca, level)
+        public List<string> Habilidade { get; set; } 
+        public Guerreiro(string nome, int vida, int mana, float xp, int inteligencia, int forca, int level, List<string> habilidades) : base(nome, vida, mana, xp, inteligencia, forca, level)
         {
             Nome = nome;
             Vida = vida;
@@ -17,6 +17,7 @@ namespace EX3.Classes
             Inteligencia = inteligencia;
             Forca = forca;
             Level = level;
+            Habilidade = habilidades;
         }
 /* Usando o conceito de polimorfismo, implemente o método lvlUp(), de
 forma que o Mago ao subir de nível possua um aumento maior nos
@@ -28,8 +29,16 @@ atributos Vida e Força. */
 /* Implemente o método attack() de forma que siga a seguinte regra:
 Guerreiro ⚔ : ( Força * Level ) + numeroRandomico( 0 até 300 ). */
 
-        //public void Attack(){}
+        public int Attack()
+        {
+            Random randNum = new Random();
+            int numRandonico = randNum.Next(0,300);
+            return (Forca * Level) + numRandonico;
+        }
 
-        //public void AprenderHabilidade(string habilidade){}
+        public void AprenderHabilidade(string habilidade)
+        {
+            Habilidade.Add(habilidade);
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace EX2.Classes
         public string CNPJ { get; set; }
         public List<Livro> Livros { get; set; }
         public List<VideoGame> VideoGames { get; set; }
-    public Loja(string nome, string cnpj, List<string> livros, List<object> videogames)
+    public Loja(string nome, string cnpj, List<Livro> livros, List<VideoGame> videogames)
         {
             Nome = nome;
             CNPJ = cnpj;
@@ -21,28 +21,53 @@ namespace EX2.Classes
 /* listaLivros( ): lista todos os livros que uma loja tem, caso a
 lista de livros seja vazia, mostrar no console "A loja não tem
 livros no seu estoque." . */
-    public void ListaLivros()
+    public string ListaLivros()
     {
-        foreach (var item in collection)
+        if (Livros.Count == 0)
         {
-            
+            return "A loja não tem livros no seu estoque.";
+        }
+        foreach (var item in Livros)
+        {
+            Console.WriteLine($"{item.Nome}");
         }
     }
 /* listaVideoGames ( ): lista todos os vídeo games que uma
 loja tem, caso a lista de vídeo games seja vazia, mostrar no
 console "A loja não tem video-games no seu estoque.". */
-    public void ListaVideoGames()
+    public string ListaVideoGames()
     {
-        foreach (var item in collection)
+        if (VideoGames.Count == 0)
         {
-            
+            return "A loja não tem video-games no seu estoque.";
+        }
+        foreach (var item in VideoGames)
+        {
+            Console.WriteLine($"{item.Nome}");
         }
     }
 /* calculaPatrimonio( ): Soma os preços de todos produtos da
 loja e retorna este valor como double. */
     public double CalculaPatrimonio()
     {
+        double somaLivros = 0;
+        double somaGames = 0;
 
+        if (VideoGames.Count != 0)
+        {
+            foreach (var item in VideoGames)
+        {
+            somaGames += item.Preco;
+        }
+        }
+        if (Livros.Count != 0)
+        {
+            foreach (var item in Livros)
+        {
+            somaLivros += item.Preco;
+        }
+        }
+        return somaLivros + somaGames;
     }
     
     }

@@ -7,11 +7,20 @@ namespace MyApp // Note: actual namespace depends on the project name.
   {
     static void Main(string[] args)
     {
-      Guerreiro xena = new Guerreiro("Xena",100, 100, 100, 100, 500, 1);
+      List<string> habIniciaisGuerreiro = new List<string> {"Porradeiro"};
+      Guerreiro xena = new Guerreiro("Xena",100, 100, 100, 100, 500, 1, habIniciaisGuerreiro);
       xena.ExibeQtdPersons();
+      xena.AprenderHabilidade("Voadora");
 
-      Mago merlin = new Mago("Merlin",50,200,100,500,100,1);
-      merlin.ExibeQtdPersons();
+      foreach (var item in xena.Habilidade)
+      {
+        Console.WriteLine($"{item}");
+      }
+
+      Console.WriteLine(xena.Attack());
+
+      /* Mago merlin = new Mago("Merlin",50,200,100,500,100,1);
+      merlin.ExibeQtdPersons(); */
 
     }
   }
