@@ -28,7 +28,10 @@ namespace EX3.Classes
             QtdPersons++;
         }
 
-        //public abstract void lvlUp();
+        public virtual void lvlUp()
+        {
+            Level++;
+        }
 
         public void ExibeQtdPersons()
         {
