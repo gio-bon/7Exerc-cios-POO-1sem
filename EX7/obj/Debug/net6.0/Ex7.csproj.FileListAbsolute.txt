@@ -1,0 +1,15 @@
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\obj\Debug\net6.0\Ex7.csproj.AssemblyReference.cache
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\obj\Debug\net6.0\Ex7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\obj\Debug\net6.0\Ex7.AssemblyInfoInputs.cache
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\obj\Debug\net6.0\Ex7.AssemblyInfo.cs
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\obj\Debug\net6.0\Ex7.csproj.CoreCompileInputs.cache
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\bin\Debug\net6.0\Ex7.exe
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\bin\Debug\net6.0\Ex7.deps.json
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\bin\Debug\net6.0\Ex7.runtimeconfig.json
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\bin\Debug\net6.0\Ex7.dll
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\bin\Debug\net6.0\Ex7.pdb
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\obj\Debug\net6.0\Ex7.dll
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\obj\Debug\net6.0\refint\Ex7.dll
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\obj\Debug\net6.0\Ex7.pdb
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\obj\Debug\net6.0\Ex7.genruntimeconfig.cache
+C:\Users\Giovani\Documents\7Exerc-cios-POO-1sem\EX7\obj\Debug\net6.0\ref\Ex7.dll
