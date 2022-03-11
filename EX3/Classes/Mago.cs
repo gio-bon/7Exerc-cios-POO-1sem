@@ -24,7 +24,11 @@ forma que o Mago ao subir de nível possua um aumento maior nos
 atributos Mana e Inteligência e o Guerreiro possua um aumento maior nos
 atributos Vida e Força. */
 
-        //public void lvlUp() {}
+        public override void lvlUp()
+        {
+            Level++;
+            Inteligencia++;
+        }
 
 /* Implemente o método attack() de forma que siga a seguinte regra:
 : MAGO : ( Inteligência * Level ) + numeroRandomico( 0 até 300 ). */
