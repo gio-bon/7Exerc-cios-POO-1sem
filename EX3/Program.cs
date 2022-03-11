@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using EX3.Classes;
 
 namespace MyApp // Note: actual namespace depends on the project name.
@@ -18,6 +18,9 @@ namespace MyApp // Note: actual namespace depends on the project name.
       }
 
       Console.WriteLine(xena.Attack());
+
+      xena.lvlUp();
+      Console.WriteLine($"{xena.Level}")
 
       /* Mago merlin = new Mago("Merlin",50,200,100,500,100,1);
       merlin.ExibeQtdPersons(); */
